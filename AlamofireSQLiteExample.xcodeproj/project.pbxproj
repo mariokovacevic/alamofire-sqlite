@@ -18,7 +18,6 @@
 		CD1AA37A1C8616020036A14F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AA3681C8616020036A14F /* BaseViewController.swift */; };
 		CD1AA37B1C8616020036A14F /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AA3691C8616020036A14F /* CountriesTableViewCell.swift */; };
 		CD1AA37C1C8616020036A14F /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AA36A1C8616020036A14F /* CountriesViewController.swift */; };
-		CD1AA37E1C8616020036A14F /* IntroVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AA36C1C8616020036A14F /* IntroVIewController.swift */; };
 		CD1AA37F1C8616020036A14F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AA36D1C8616020036A14F /* Reachability.swift */; };
 		CD1AA3821C8616020036A14F /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AA3701C8616020036A14F /* UITableViewExtension.swift */; };
 		CD1AA3861C8616020036A14F /* WelcomeVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AA3741C8616020036A14F /* WelcomeVewController.swift */; };
@@ -45,7 +44,6 @@
 		CD1AA3681C8616020036A14F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CD1AA3691C8616020036A14F /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
 		CD1AA36A1C8616020036A14F /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
-		CD1AA36C1C8616020036A14F /* IntroVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVIewController.swift; sourceTree = "<group>"; };
 		CD1AA36D1C8616020036A14F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		CD1AA3701C8616020036A14F /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		CD1AA3741C8616020036A14F /* WelcomeVewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVewController.swift; sourceTree = "<group>"; };
@@ -166,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				CD1AA3681C8616020036A14F /* BaseViewController.swift */,
-				CD1AA3901C8618510036A14F /* Intro */,
 				CD1AA3911C8618570036A14F /* Welcome */,
 				CD1AA38F1C86184A0036A14F /* Countries */,
 			);
@@ -190,14 +187,6 @@
 				CD1AA36A1C8616020036A14F /* CountriesViewController.swift */,
 			);
 			name = Countries;
-			sourceTree = "<group>";
-		};
-		CD1AA3901C8618510036A14F /* Intro */ = {
-			isa = PBXGroup;
-			children = (
-				CD1AA36C1C8616020036A14F /* IntroVIewController.swift */,
-			);
-			name = Intro;
 			sourceTree = "<group>";
 		};
 		CD1AA3911C8618570036A14F /* Welcome */ = {
@@ -362,7 +351,6 @@
 				CD1AA37B1C8616020036A14F /* CountriesTableViewCell.swift in Sources */,
 				CD1AA3781C8616020036A14F /* APIHelper.swift in Sources */,
 				CD1AA37F1C8616020036A14F /* Reachability.swift in Sources */,
-				CD1AA37E1C8616020036A14F /* IntroVIewController.swift in Sources */,
 				CD1AA38D1C8617170036A14F /* StringExtension.swift in Sources */,
 				CD1AA38B1C8616E50036A14F /* NSStringExtension.swift in Sources */,
 				CDF9AB011C861D5300C3E1C9 /* SchemaVersioning.swift in Sources */,
