@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AlamofireObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>AsyncSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>EAIntroView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>EARestrictedScrollView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,12 +34,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JVFloatLabeledTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AlamofireSQLiteExample.xcscheme</key>
+		<key>Pods-Country.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNLoadingButton.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,7 +59,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SVProgressHUD.xcscheme</key>
+		<key>SWRevealViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftKeychainWrapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -44,45 +74,105 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyUserDefaults.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Toaster.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>21CFF74A214E468137F7BB98A68EE648</key>
+		<key>1DE8D8C2C2F90D3D9F9B119925088477</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>30D72187AB458826A451F9416987B94A</key>
+		<key>2A4448146C785C426971111F117D773C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>41D1784EF2E925CDB26F958338877B42</key>
+		<key>2B98448DB7375A38F83DE92A7BF39241</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4E155FBB6070C868840C7A2BB6E75E85</key>
+		<key>2F5622F3B18DF497981AB58C6D1FC72F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>71364F95942F8F0BCF24BE946E7F690E</key>
+		<key>3FB045361F59A887F071AE25C47FA585</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76C3D8480F6F4B9ECACA78A0251097F4</key>
+		<key>4B3A94083E07FDB012E3EF869C366533</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<key>58AAD2C9E898747F2F4ABF348E6325F2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E82421CBEE4F9A6C8D5D9FEC459CE24A</key>
+		<key>7F45F2F21482C3777494ACE42307212D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>822DA31A6A34C7EF41E1EC7A5EF8FC2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9502FB01641FBABB78522037E882757B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9FC2DEAD86A4B4B56907B6AC8316F83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BFECDB336E283D20DD30FD35DD33DAB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C36CB2CB977A4E7D954935096D00A1ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFAFBF4764E4AF7FF38802A70683776C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0C6B20E92C335E1B1470E3698D0B503</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E971FEBCD9B4CD3361FC34447BD7F5F2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

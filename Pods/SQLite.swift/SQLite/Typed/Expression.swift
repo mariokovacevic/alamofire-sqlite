@@ -24,7 +24,7 @@
 
 public protocol ExpressionType : Expressible { // extensions cannot have inheritance clauses
 
-    typealias UnderlyingType = Void
+    associatedtype UnderlyingType = Void
 
     var template: String { get }
     var bindings: [Binding?] { get }
@@ -78,7 +78,15 @@ extension Expressible {
         let expressed = expression
         var idx = 0
         return expressed.template.characters.reduce("") { template, character in
-            return template + (character == "?" ? transcode(expressed.bindings[idx++]) : String(character))
+            let transcoded: String
+            
+            if character == "?" {
+                transcoded = transcode(expressed.bindings[idx])
+                idx += 1
+            } else {
+                transcoded = String(character)
+            }
+            return template + transcoded
         }
     }
 
@@ -130,10 +138,10 @@ extension Value {
 
 public let rowid = Expression<Int64>("ROWID")
 
-public func cast<T: Value, U: Value>(expression: Expression<T>) -> Expression<U> {
+public func cast<T: Value, U: Value>(_ expression: Expression<T>) -> Expression<U> {
     return Expression("CAST (\(expression.template) AS \(U.declaredDatatype))", expression.bindings)
 }
 
-public func cast<T: Value, U: Value>(expression: Expression<T?>) -> Expression<U?> {
+public func cast<T: Value, U: Value>(_ expression: Expression<T?>) -> Expression<U?> {
     return Expression("CAST (\(expression.template) AS \(U.declaredDatatype))", expression.bindings)
 }

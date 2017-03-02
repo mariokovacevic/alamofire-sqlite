@@ -1,6 +1,0 @@
-framework module Pods_AlamofireSQLiteExample {
-  umbrella header "Pods-AlamofireSQLiteExample-umbrella.h"
-
-  export *
-  module * { export * }
-}

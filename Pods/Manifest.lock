@@ -1,28 +1,70 @@
 PODS:
-  - Alamofire (3.2.1)
-  - AsyncSwift (1.7.2)
-  - IQKeyboardManager (4.0.0)
-  - ObjectMapper (0.19)
-  - SQLite.swift (0.9.2)
-  - SVProgressHUD (1.1.3)
-  - SwiftyJSON (2.3.2)
+  - Alamofire (4.2.0)
+  - AlamofireObjectMapper (4.0.1):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - AsyncSwift (2.0.1)
+  - EAIntroView (2.10.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - IQKeyboardManager (4.0.7)
+  - JVFloatLabeledTextField (1.1.1)
+  - ObjectMapper (2.2.2)
+  - pop (1.0.9)
+  - RNLoadingButton (0.0.1)
+  - SQLite.swift (0.11.1):
+    - SQLite.swift/standard (= 0.11.1)
+  - SQLite.swift/standard (0.11.1)
+  - SwiftKeychainWrapper (3.0.1)
+  - SwiftyJSON (3.1.4)
+  - SwiftyUserDefaults (3.0.0)
+  - SWRevealViewController (2.3.0)
+  - Toaster (2.0.1)
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 4.0)
+  - AlamofireObjectMapper (~> 4.0)
   - AsyncSwift
+  - EAIntroView
   - IQKeyboardManager
-  - ObjectMapper (~> 0.19)
+  - JVFloatLabeledTextField
+  - ObjectMapper
+  - pop
+  - RNLoadingButton
   - SQLite.swift
-  - SVProgressHUD
-  - SwiftyJSON
+  - SwiftKeychainWrapper
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - SwiftyUserDefaults
+  - SWRevealViewController
+  - Toaster
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 619fba2d551b678aa0b6ceff1c863677f0eb7ff7
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
-  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
-  AsyncSwift: 46a78bceb11f0e5bb52747f740d9692ec78d2d7c
-  IQKeyboardManager: b91928f7927ba55a5829b4dcf4b7a6736ac9fc22
-  ObjectMapper: a88114e5df20f055da63029f25cbc01014847c91
-  SQLite.swift: 5dca22dbf6634fdb9c3270fae9491830804e9b2d
-  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
-  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireObjectMapper: 842d2eed43a4d0593ff0110d54ac86a170c4519c
+  AsyncSwift: 632138e42ead868b53c745fcde9bf733ce1527ad
+  EAIntroView: 3494b7bbd1212e3a4f7e8d16194a1b00e7b9abb2
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  RNLoadingButton: edcf6cd965509625f79318a8a5477b1293435698
+  SQLite.swift: e0c01bd94d8a5cb726835f8bddd41c7d32b606a9
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  SwiftyJSON: 05cf0e98a950e2ba343735264f5a96b81e755d00
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  Toaster: be65cd48e93a525b2a9cc4bd25a2bfc900e02d9f
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 5bc61b446aa89e77b66aae6fc45c44df5bb07d87
+
+COCOAPODS: 1.1.1
